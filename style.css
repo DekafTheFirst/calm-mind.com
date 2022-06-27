@@ -276,7 +276,7 @@ nav .free-trial .my-btn {
 
 
 .people {
-    padding-top: 70px;
+    padding-top: 200px;
     width: 100%;
     display: flex;
     position: relative;
@@ -320,17 +320,20 @@ nav .free-trial .my-btn {
 footer{
     background-color: #FFBAA1;
     overflow-y: visible;
+    padding: 20px;
 }
 
 
 
 footer .container.main {
+    padding-top: 30px;
     padding-bottom: 80px;
 }
 
 footer * {
     color: #000;
 }
+
 footer .call-to-action {
     position: absolute;
     top: -75px;
@@ -490,9 +493,11 @@ footer .footer-links .row{
     .hero .row-2 .wrapper {
         flex-direction: row;
     }
+    
     .hero .row-2 .wrapper p{
     margin-top: 0;
     }
+    
     .hero .row-2 .wrapper img{
         margin-right: 15px;
     }
@@ -504,6 +509,7 @@ footer .footer-links .row{
     }
 
     .people {
+        padding-top: 70px;
         display: flex;
         justify-content: space-between;
     }
@@ -604,7 +610,7 @@ footer .footer-links .row{
     }
 
     footer .container.main {
-        padding-top: 150px !important;
+        padding-top: 80px !important;
     }
 
 
